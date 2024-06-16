@@ -1,0 +1,20 @@
+/* Poppins  */
+:root {
+  --poppins: "Poppins", sans-serif;
+  --poppins-regular: 400;
+  --poppins-medium: 500;
+  --poppins-bold: 700;
+
+  --playfair-display: "Playfair Display", serif;
+  --playfair-bold: 700;
+  /* font-style: normal; */
+}
+body {
+  font-family: var(--poppins);
+  font-style: normal;
+  font-optical-sizing: auto;
+}
+h1{
+  font-family: var(--playfair-display);
+  font-weight: var(--playfair-bold);
+}
