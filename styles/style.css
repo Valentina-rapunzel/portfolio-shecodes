@@ -4,6 +4,16 @@
   --poppins-regular: 400;
   --poppins-medium: 500;
   --poppins-bold: 700;
+  --background: #f9f7fe;
+  --default-color: #0000;
+  --opacity-color: #505078;
+  --primary-color: #ffffff;
+  --accent-color: #d620e3;
+  --secondary-color: #d59bf6;
+  --secondary-light-color: #edb1f1;
+  --secondary-dark-color: #9896f1;
+  --secondary-bright-color: #8ef6e4;
+  --border: 1px solid #0000;
 
   --playfair-display: "Playfair Display", serif;
   --playfair-bold: 700;
@@ -14,7 +24,44 @@ body {
   font-style: normal;
   font-optical-sizing: auto;
 }
-h1{
+
+.hero {
+  padding: 70px 20px;
+  background: var(--background);
+  text-align: center;
+}
+.hero h5 {
+  font-weight: var(--poppins-bold);
+  font-size: 36px;
+}
+h1 {
   font-family: var(--playfair-display);
   font-weight: var(--playfair-bold);
+  font-size: 96px;
+  margin-top: 15px;
+}
+.hero p {
+  font-family: var(--poppins-regular);
+  color: var(--opacity-color);
+  font-size: 24px;
+  margin: 0;
+  margin-top: 24px;
+}
+
+.hero a {
+  color: var(--default-color);
+}
+.btn-branding {
+  border-radius: 4px;
+  background: var(--background);
+  font-weight: var(--poppins-medium);
+  font-size: 18px;
+  padding: 18px 30px;
+  margin-top: 50px;
+}
+.btn-branding:hover {
+  border: none;
+  transition: 200ms ease-out;
+  color: var(--primary-color);
+  background: var(--accent-color);
 }
