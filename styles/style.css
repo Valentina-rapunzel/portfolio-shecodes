@@ -58,9 +58,10 @@ h1 {
   font-size: 18px;
   padding: 18px 30px;
   margin-top: 50px;
+  border: none;
 }
 .btn-branding:hover {
-  border: none;
+  
   transition: 200ms ease-out;
   color: var(--primary-color);
   background: var(--accent-color);
