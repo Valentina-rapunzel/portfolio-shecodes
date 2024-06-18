@@ -61,8 +61,74 @@ h1 {
   border: none;
 }
 .btn-branding:hover {
-  
   transition: 200ms ease-out;
   color: var(--primary-color);
   background: var(--accent-color);
+}
+.paragraph {
+  font-weight: var(--poppins-regular);
+  font-size: 18px;
+}
+.project-title {
+  font-family: var(--playfair-display);
+  font-size: 62px;
+  font-weight: var(--playfair-bold);
+  margin-top: 90px;
+  text-align: start;
+  margin-bottom: 0;
+}
+.project-text {
+  font-size: 16px;
+  font-weight: var(--poppins-regular);
+  padding: 50px 20px;
+  margin: 0;
+}
+button.launch-button {
+  padding: 20px 30px;
+  border-radius: 4px;
+  border: 1px solid #d620e3;
+  font-size: 16px;
+  font-weight: var(--poppins-medium);
+  background-color: #ffffff;
+  margin: 30px 20px 100px 20px;
+}
+button.launch-button:hover {
+  padding: 20px 30px;
+  border-radius: 4px;
+  border: 1px solid #d620e3;
+  font-size: 16px;
+  font-weight: var(--poppins-medium);
+  background-color: var(--accent-color);
+}
+a.launch-link:hover {
+  color: black;
+}
+.work-inquiry {
+  background: var(--background);
+  padding: 40px;
+  margin: 50px auto;
+}
+.contact-button {
+  padding: 20px 30px;
+  background-color: #ffffff;
+}
+.contact-button:hover {
+  background: var(--accent-color);
+}
+.contact-link {
+  color: black;
+}
+.contact-data:hover {
+  color: #d620e3;
+}
+.icons {
+  margin: 20px 300px;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+.icons a {
+  color: black;
+}
+.icons a:hover {
+  color: var(--accent-color);
 }
