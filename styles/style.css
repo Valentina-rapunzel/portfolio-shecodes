@@ -26,7 +26,8 @@ body {
 }
 
 .hero {
-  padding: 70px 20px;
+  padding: 60px 20px;
+  padding-top: 0;
   background: var(--background);
   text-align: center;
 }
@@ -111,6 +112,7 @@ a.launch-link:hover {
 .contact-button {
   padding: 20px 30px;
   background-color: #ffffff;
+  margin-top: 30px;
 }
 .contact-button:hover {
   background: var(--accent-color);
@@ -122,6 +124,8 @@ a.launch-link:hover {
   color: #d620e3;
 }
 .icons {
+  display: flex;
+  flex-direction: row;
   margin: 20px 300px;
   margin-bottom: 50px;
   font-size: 30px;
@@ -131,4 +135,38 @@ a.launch-link:hover {
 }
 .icons a:hover {
   color: var(--accent-color);
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 62px;
+  }
+}
+/* ABOUT */
+.about-container {
+  margin-top: 50px;
+}
+h2 {
+  font-family: var(--playfair-display);
+  font-size: 64px;
+  font-weight: var(--playfair-bold);
+
+  padding: 20px;
+}
+h5 {
+  font-size: 18px;
+  font-weight: var(--poppins-bold);
+
+  padding: 20px;
+}
+p.text {
+  font-weight: var(--poppins-regular);
+  font-size: 16px;
+  line-height: 30px;
+  opacity: 0.7;
+  padding: 20px;
+
+  margin: 0;
+}
+.avatar {
+  margin-top: 70px;
 }
