@@ -48,14 +48,12 @@ body {
   font-optical-sizing: auto;
 }
 .hero {
-  padding: 60px 20px;
+  padding: 100px 20px;
   padding-top: 0;
   background: var(--background);
   text-align: center;
 }
-.main-logo {
-  margin-bottom: 20px;
-}
+
 .hero h5 {
   font-weight: var(--poppins-bold);
   font-size: 36px;
