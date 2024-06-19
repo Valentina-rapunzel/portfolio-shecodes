@@ -4,6 +4,7 @@
   --poppins-regular: 400;
   --poppins-medium: 500;
   --poppins-bold: 700;
+  --animation: color-change 5s ease infinite;
   --background: #f9f7fe;
   --default-color: #0000;
   --opacity-color: #505078;
@@ -19,6 +20,30 @@
   --playfair-bold: 700;
   /* font-style: normal; */
 }
+
+/* Define the animation */
+@keyframes color-change {
+  0% {
+    color: #0000;
+  } /* Start color */
+  40% {
+    color: #9896f1;
+  } /* Middle-2 color */
+  50% {
+    color: #d59bf6;
+  } /* Middle-3 color */
+  75% {
+    color: #8ef6e4;
+  } /* Middle-4 color */
+  85% {
+    color: #d620e3;
+  } /* Middle-5 color */
+  100% {
+    color: #edb1f1;
+  } /* End color */
+}
+/* ANIMATION  */
+
 body {
   font-family: var(--poppins);
   font-style: normal;
@@ -36,6 +61,7 @@ body {
   font-size: 36px;
 }
 h1 {
+  animation: var(--animation);
   font-family: var(--playfair-display);
   font-weight: var(--playfair-bold);
   font-size: 96px;
@@ -72,7 +98,7 @@ h1 {
 }
 .project-title {
   font-family: var(--playfair-display);
-  font-size: 62px;
+  font-size: 56px;
   font-weight: var(--playfair-bold);
   margin-top: 90px;
   text-align: start;
@@ -107,19 +133,29 @@ a.launch-link:hover {
 .work-inquiry {
   background: var(--background);
   padding: 40px;
-  margin: 50px auto;
+  margin: 30px auto;
+  margin-bottom: 0;
 }
+.work-inquiry p{
+  padding: 0px 40px ;
+  padding-bottom: 20px;
+  margin: 0;
+}
+
 .contact-button {
   padding: 20px 30px;
   background-color: #ffffff;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 .contact-button:hover {
   background: var(--accent-color);
 }
 .contact-link {
   color: black;
+  font-size: 24px;
+  font-weight: var(--poppins-medium);
 }
+
 .contact-data:hover {
   color: #d620e3;
 }
@@ -184,7 +220,7 @@ h4 {
   color: black;
   text-decoration: none;
 }
-.work-container a:hover{
+.work-container a:hover {
   color: var(--accent-color);
   text-decoration: underline;
 }
