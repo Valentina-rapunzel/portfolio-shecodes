@@ -168,5 +168,23 @@ p.text {
   margin: 0;
 }
 .avatar {
-  margin-top: 70px;
+  margin: 150px 20px 50px 20px;
+}
+/* WORK  */
+h4 {
+  font-size: 24px;
+  font-weight: var(--poppins-bold);
+}
+.work-container p {
+  font-size: 14px;
+  font-weight: var(--poppins-regular);
+  opacity: 0.7;
+}
+.work-container a {
+  color: black;
+  text-decoration: none;
+}
+.work-container a:hover{
+  color: var(--accent-color);
+  text-decoration: underline;
 }
