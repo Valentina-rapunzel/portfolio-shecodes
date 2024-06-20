@@ -48,7 +48,7 @@ body {
   font-optical-sizing: auto;
 }
 .hero {
-  padding: 0px 20px;
+  padding: 30px 20px;
   padding-top: 0;
   background: var(--background);
   text-align: center;
@@ -156,7 +156,7 @@ a.launch-link:hover {
 .contact-data:hover {
   color: #d620e3;
 }
-strong.contact-data{
+strong.contact-data {
   font-size: 24px;
 }
 .icons {
@@ -231,7 +231,6 @@ h4 {
 .rights {
   margin-top: 10px;
   margin-right: 20px;
- 
 }
 /* RESPONSIVE WEBSITE  */
 
@@ -277,9 +276,9 @@ h4 {
     margin: 0;
     padding-top: 10px;
   }
-  strong.contact-data{
-  font-size: 18px;
-}
+  strong.contact-data {
+    font-size: 18px;
+  }
   .icons {
     margin: 0;
     font-size: 10px;
@@ -293,7 +292,6 @@ h4 {
     padding-bottom: 20px;
   }
 
-
   /* About  */
   h2 {
     font-size: 58px;
@@ -305,7 +303,7 @@ h4 {
   }
 
   /* Contact  */
-   .rights{
+  .rights {
     margin-top: 20px;
     font-size: 14px;
   }
