@@ -76,9 +76,7 @@ h1 {
   margin: 0;
   margin-top: 24px;
 }
-a {
-  color: black;
-}
+
 .btn-branding {
   border-radius: 4px;
   background: var(--background);
@@ -111,6 +109,9 @@ a {
   font-weight: var(--poppins-regular);
   padding: 50px 20px;
   margin: 0;
+}
+a {
+  color: black;
 }
 button.launch-button {
   padding: 20px 30px;
@@ -256,7 +257,7 @@ h4 {
   }
   .hero a {
     font-size: 14px;
-    color: #0000;
+    color: black;
   }
   .btn-branding {
     margin-top: 20px;
@@ -265,7 +266,6 @@ h4 {
     color: var(--primary-color);
     background-color: var(--accent-color);
   }
-
   .project-title {
     margin-top: 0px;
   }
