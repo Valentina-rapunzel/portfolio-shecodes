@@ -47,6 +47,9 @@ body {
   font-style: normal;
   font-optical-sizing: auto;
 }
+.logo{
+  max-width: 200px;
+}
 .hero {
   padding: 30px 20px;
   padding-top: 0;
@@ -235,8 +238,8 @@ h4 {
 /* RESPONSIVE WEBSITE  */
 
 @media (max-width: 900px) {
-  .main-logo {
-    width: 100;
+  .logo {
+    max-width: 180px;
     margin-bottom: 0;
   }
   .hero h5 {
