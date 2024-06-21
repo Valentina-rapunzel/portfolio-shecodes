@@ -79,7 +79,8 @@ h1 {
 
 .btn-branding {
   border-radius: 4px;
-  background: var(--background);
+  background-color: #fff;
+  color: #000;
   font-weight: var(--poppins-medium);
   font-size: 18px;
   padding: 18px 30px;
@@ -87,9 +88,9 @@ h1 {
   border: none;
 }
 .btn-branding:hover {
-  transition: 200ms ease-out;
+  transition: all 200ms ease-out;
   color: var(--primary-color);
-  background: var(--accent-color);
+  background-color: var(--accent-color);
 }
 .paragraph {
   font-weight: var(--poppins-regular);
@@ -119,7 +120,8 @@ button.launch-button {
   border: 1px solid #d620e3;
   font-size: 16px;
   font-weight: var(--poppins-medium);
-  background-color: #ffffff;
+  background-color: #fff;
+  color: #000;
   margin: 40px 20px;
   margin-top: 20px;
 }
@@ -130,6 +132,7 @@ button.launch-button:hover {
   font-size: 16px;
   font-weight: var(--poppins-medium);
   background-color: var(--accent-color);
+  transition: all 200ms ease-out;
 }
 a.launch-link:hover {
   color: black;
@@ -147,11 +150,11 @@ a.launch-link:hover {
 }
 .contact-button {
   padding: 20px 30px;
-  background-color: #ffffff;
+  background-color: #fff;
   margin-top: 50px;
 }
 .contact-button:hover {
-  background: var(--accent-color);
+  background-color: var(--accent-color);
 }
 .contact-link {
   color: black;
