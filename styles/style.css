@@ -70,7 +70,7 @@ h1 {
   margin-top: 0px;
 }
 .hero p {
-  font-family: var(--poppins-regular);
+  font-weight: var(--poppins-medium);
   color: var(--opacity-color);
   font-size: 24px;
   margin: 0;
@@ -81,7 +81,6 @@ h1 {
 }
 .btn-branding {
   border-radius: 4px;
-  color: #0000;
   background: var(--background);
   font-weight: var(--poppins-medium);
   font-size: 18px;
