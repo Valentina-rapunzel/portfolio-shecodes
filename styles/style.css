@@ -59,7 +59,7 @@ body {
 
 .hero h5 {
   font-weight: var(--poppins-bold);
-   color: var(--opacity-color);
+  color: var(--opacity-color);
   font-size: 36px;
 }
 h1 {
@@ -76,8 +76,8 @@ h1 {
   margin: 0;
   margin-top: 24px;
 }
-.hero a {
-  color: #0000;
+a {
+  color: black;
 }
 .btn-branding {
   border-radius: 4px;
@@ -254,17 +254,17 @@ h4 {
   .hero p {
     font-size: 18px;
   }
-  .hero a{
+  .hero a {
     font-size: 14px;
     color: #0000;
   }
   .btn-branding {
     margin-top: 20px;
   }
-   .btn-branding:hover{
+  .btn-branding:hover {
     color: var(--primary-color);
     background-color: var(--accent-color);
-   }
+  }
 
   .project-title {
     margin-top: 0px;
